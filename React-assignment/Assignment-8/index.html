@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 8 - OOP in JavaScript</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .box { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; width: 380px; }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Class Assignments</h1>
+
+    <div class="box">
+        <h3>1. Calculator Class</h3>
+        <input type="number" id="num1" placeholder="Number 1">
+        <input type="number" id="num2" placeholder="Number 2">
+        <button onclick="runCalculator()">Calculate</button>
+        <p id="calcRes"></p>
+    </div>
+
+    <div class="box">
+        <h3>2. Biggest Class</h3>
+        <input type="text" id="arrInput" placeholder="Comma separated numbers (e.g. 5,12,3,9)">
+        <button onclick="runBiggest()">Find Biggest</button>
+        <p id="biggestRes"></p>
+    </div>
+
+    <div class="box">
+        <h3>3. Rectangle Class</h3>
+        <input type="number" id="rectLen" placeholder="Length (default 1)">
+        <input type="number" id="rectWid" placeholder="Width (default 1)">
+        <button onclick="runRectangle()">Calculate Rectangle</button>
+        <p id="rectRes"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

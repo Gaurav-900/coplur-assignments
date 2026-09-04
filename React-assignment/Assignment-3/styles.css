@@ -1,0 +1,46 @@
+#main-container {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#profile-header {
+    text-align: center;
+}
+
+#user-pic {
+    border-radius: 50%;
+}
+
+#user-name {
+    color: #333;
+}
+
+.bio-text {
+    color: #666;
+    font-style: italic;
+}
+
+.profile-section {
+    margin-top: 20px;
+}
+
+.section-title {
+    color: #222;
+    border-bottom: 1px solid #ddd;
+}
+
+.skills-list {
+    list-style-type: square;
+}
+
+.skill-item {
+    color: #444;
+    padding: 3px 0;
+}
+
+.contact-info {
+    color: #555;
+}

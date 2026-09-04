@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 7 - String & Math Tasks</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        .box { border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; width: 350px; }
+    </style>
+</head>
+<body>
+    <h1>JavaScript String & Number Operations</h1>
+
+    <div class="box">
+        <h3>1. Decimal to Binary</h3>
+        <input type="number" id="decNum" placeholder="Enter decimal number">
+        <button onclick="decimalToBinary()">Convert</button>
+        <p id="res1"></p>
+    </div>
+
+    <div class="box">
+        <h3>2. Count Character Occurrences</h3>
+        <input type="text" id="textInput" placeholder="Enter string"><br><br>
+        <input type="text" id="charInput" placeholder="Enter character" maxlength="1"><br><br>
+        <button onclick="countChar()">Count</button>
+        <p id="res2"></p>
+    </div>
+
+    <div class="box">
+        <h3>3. Capitalize First Letter of Words</h3>
+        <input type="text" id="strInput" placeholder="Enter a sentence">
+        <button onclick="capitalizeWords()">Capitalize</button>
+        <p id="res3"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

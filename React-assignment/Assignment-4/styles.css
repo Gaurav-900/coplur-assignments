@@ -1,0 +1,42 @@
+/* ID Selector */
+#product-page {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Class Selector */
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    background-color: #fdfdfd;
+}
+
+/* Descendant Selector */
+.product-list .product-card {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Child Selector */
+.product-card > h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 5px 0;
+}
+
+/* Adjacent Sibling Selector */
+h2 + .price {
+    font-weight: bold;
+    color: green;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* General Sibling Selector */
+h2 ~ p {
+    font-size: 14px;
+    color: #666;
+}
